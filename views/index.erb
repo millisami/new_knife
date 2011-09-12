@@ -1,0 +1,10 @@
+<H1>Client Listing </H1>
+<table border=1>
+<tr>
+<% @clients.each do |c| %>
+<%= "<td> #{c} </td>" %>
+</tr>
+<% end %>
+</table> <br />
+
+<a href="/new_knife/new">New Client</a>

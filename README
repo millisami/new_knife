@@ -1,0 +1,4 @@
+This is a silly web app that wraps around knife client create
+It was designed to somewhat automate the process of getting keys to users
+You use your name (client name) and an email address, and it will email you
+instructions and your private key to use.  

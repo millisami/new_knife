@@ -1,0 +1,13 @@
+---
+pid: /opt/new_knife/server/thin.pid
+log: /opt/new_knife/server/thin.log
+timeout: 30
+port: 12001
+max_conns: 1024
+chdir: /opt/new_knife
+rackup: /opt/new_knife/config.ru
+max_persistent_conns: 512
+environment: production
+address: 127.0.0.1
+servers: 1
+daemonize: true
